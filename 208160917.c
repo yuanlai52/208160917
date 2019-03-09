@@ -17,5 +17,6 @@ int main() {
     Vec p, v[] = { { -30, -20 }, { -20, 30 }, { 20, 20 } };
     for (p.y = 40; p.y >= -40; p.y -= 2, putchar('\n'))
         for (p.x = -40; p.x <= 40; p.x++)
-             putchar(".*"[triangle(p, v)]);
+ 
+            putchar(".*"[triangle(p, v)]);
 }
